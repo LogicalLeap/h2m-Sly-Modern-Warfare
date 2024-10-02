@@ -28,7 +28,7 @@ init()
 // Function to disable bot killstreaks
 disableBotKillstreaks()
 {
-    setDvar("disable_bot_killstreaks", 1);
+    setDvar("disable_bot_killstreaks", 0);
 
     foreach (player in level.players)
     {
